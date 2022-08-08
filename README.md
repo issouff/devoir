@@ -1,3 +1,3 @@
-Guessinggame project
-2022-08-05-11.45.28
-      21
+# <span style='color:blue'>Project title: Guessinggame</span>
+2022-08-08 08:48:04n
+Number of lines:       21
