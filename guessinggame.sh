@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "How many files are in the current directory ?"
 read nb
-nb_current=`find . -type f|wc -l`
+nb_current=`ls -ltr|wc -l`
 function check_number
 {
   while [ $nb -ne $nb_current ]
@@ -17,5 +17,5 @@ function check_number
    read -p "Please try again : " nb
   done
 }
-rep=$(check_number)
+check_number
 echo "Congratulation, your guess is correct"
